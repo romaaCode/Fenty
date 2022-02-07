@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+  font-family: Arial, Helvetica, sans-serif;  
+  }
+
+header .sectionHeader{
+    display: flex;
+}
+
+header .brand{
+    position: relative;
+    right: 120px;
+    margin: 9px;
+}
+header .brand img{
+    width: 45%;
+}
+.sectionHeader .Navbar{
+    margin-bottom: 25px;
+    position: relative;
+    left: 55px;
+}
+.sectionHeader .Navbar ul{
+    display: flex;
+    text-align: center;
+     
+}
+.sectionHeader .Navbar ul li{
+    margin: 15px;
+   
+}
+body{
+    padding: 20em;
+    background-size: 110%;
+    background-image: url(img/imageF.png);
+    height: 200px;
+ }
+ header{
+     position: relative;
+     top: -320px;
+     right: 190px;
+     Width: 200%
+ }
+.sectionHeader .Navbar{
+    margin-left: -300px;
+    width: 35%;
+    bottom: -55px;
+}
+.sectionHeader .Navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.sectionHeader .Navbar ul{
+    list-style: none;
+    position: relative;
+    right: 200px;
+    font-size: 25px;
+    bottom: 15px;
+}
+
+.sectionHeader .icon{
+    width: 12%;
+    background-color: #D0ADA5;
+    width: 9%;
+    height: 40px;
+    text-align: center;
+   position: relative;
+   bottom: -50px;
+}
+.sectionHeader img{
+    position: relative;
+    top: -4px;
+    margin: 8px;
+    cursor: pointer;
+}
+main{
+    position: relative;
+    right: 320px;
+    width: 200%;
+    top: -300px;
+    height: 600px;
+}
+
+main .itemsGauche{
+    width: 47%;
+    height: 100px;
+    position: relative;
+    left: 15px;
+
+}
+main .itemsDroite{
+  width: 50%;
+  height: 100px;
+  position: relative;
+  left: 14px;
+}
+main .all-items{
+    display: flex;
+}
+main .itemsDroite img{
+    position: relative;
+    right: 290px;
+    top: 10px
+
+
+}
+
+footer{
+    position: relative;
+    right: 320px;
+    width: 200%;
+    height: 300px;
+    background-color: aliceblue;
+}
